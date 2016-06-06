@@ -7,6 +7,7 @@ int main()
  char str[5][15]={"monday","tuesday","wednesday","thrusday","friday"};
  char a[15];
  cin>>a;
+ 
  for(i=0;i<5;i++)
  {
   if(strcmp(a,str[i])!=0)
